@@ -1,0 +1,16 @@
+{
+  "name": "arduino-to-nodejs-main",
+  "version": "1.0.0",
+  "description": "This tutorial will walkthrough the process of creating an Arduino IOT device that controls aspects fo a website. In this example the website will simpy display a red block that will fade when a dial on an Arduino is adjusted.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@serialport/parser-readline": "^12.0.0",
+    "serialport": "^12.0.0",
+    "socket.io": "^4.7.5"
+  }
+}
